@@ -1,18 +1,18 @@
 import { firstFooter } from "@/lib/data";
-import Brand, { LogoMark } from "./Logo";
+import Brand from "./Logo";
 import Link from "next/link";
 
 export default function FirstFooter() {
     return (
         <div className="border-t border-[var(--line)] bg-[var(--bg)] py-10">
             <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-4">
-
                 {/* Silirna AI */}
                 <div>
                     <Brand />
 
                     <p className="mt-3.5 max-w-[34ch] text-[13.5px] text-[var(--muted-2)]">
-                        Your autonomous AI co-founder — from idea to investor-ready.
+                        Your autonomous AI co-founder — from idea to
+                        investor-ready.
                     </p>
                 </div>
 
@@ -29,8 +29,7 @@ export default function FirstFooter() {
                                     <Link
                                         key={label}
                                         href={href}
-                                        className="flex h-7 text-[14px] text-[var(--muted-2)] transition-colors hover:text-white"
-                                    >
+                                        className="flex h-7 text-[14px] text-[var(--muted-2)] transition-colors hover:text-white">
                                         {label}
                                     </Link>
                                 ))}
@@ -38,8 +37,7 @@ export default function FirstFooter() {
                         </div>
                     ))}
                 </div>
-
             </div>
         </div>
-    )
+    );
 }

@@ -1,4 +1,3 @@
-import { gradText } from "@/lib/ui";
 
 export function LogoMark() {
     return (
