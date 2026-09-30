@@ -75,7 +75,7 @@ export const navItems: Array<[View, string, keyof typeof iconMap]> = [
     ["validate", "Validate Idea", "shield"],
     ["deck", "Pitch Deck", "screen"],
     ["research", "Market Research", "search"],
-    ["outreach", "Outreach", "mail"]
+    // ["outreach", "Outreach", "mail"]
 ];
 
 export const pricing = [
@@ -83,3 +83,53 @@ export const pricing = [
     { name: "Founder", price: "$39", desc: "For solo founders going to market.", items: ["1,000 generation credits / mo", "Unlimited persistent memory", "Full document suite + decks", "Outreach automation", "Deep market research"], cta: "Start 14-day trial", featured: true },
     { name: "Scale", price: "$129", desc: "For teams raising and scaling.", items: ["Unlimited credits", "Multi-venture memory vaults", "Investor CRM (roadmap)", "Collaboration mode (roadmap)", "Priority models & support"], cta: "Talk to us" }
 ];
+
+export const demoPrompt = [
+    "Validate my latest idea",
+    "Draft an investor email",
+    "What do you remember about us?",
+    "Size my market",
+]
+
+export const docsData = [
+    {
+        name: "Product Requirements Document(PRD)",
+        value: "prd",
+    },
+    {
+        name: "Business Plan",
+        value: "business-plan",
+    },
+    {
+        name: "Financial Projection Model",
+        value: "financial-projection",
+    },
+    {
+        name: "Lean Canvas",
+        value: "lean-canvas",
+    },
+];
+
+
+export const howData = [
+    [
+        "1",
+        "Brain-dump",
+        "Tell Solirna your idea, constraints, and goals. It builds a living memory of your startup.",
+    ],
+    [
+        "2",
+        "Validate",
+        "Automatic SWOT, JTBD & Blue Ocean analysis pressure-tests the concept before you build.",
+    ],
+    [
+        "3",
+        "Generate",
+        "PRDs, financial models, and investor decks created in seconds — design-ready and on-brand.",
+    ],
+    [
+        "4",
+        "Pitch",
+        "Personalized investor outreach and a polished deck take you straight to the term sheet.",
+    ],
+]
