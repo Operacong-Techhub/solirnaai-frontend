@@ -9,7 +9,6 @@ export const navLinks = [
     { href: "#faq", label: "FAQ" },
 ];
 
-export const stack = ["Next.js 15", "Tailwind", "NestJS", "PostgreSQL", "pgvector · RAG", "OpenAI", "Anthropic"];
 
 export const steps = [
     { t: "Brain-dump", d: "Tell Solirna your idea, constraints, and goals. It builds a living memory of your startup." },
@@ -132,4 +131,19 @@ export const howData = [
         "Pitch",
         "Personalized investor outreach and a polished deck take you straight to the term sheet.",
     ],
+]
+
+export const capabilitiesData = [
+    "Deep Market Research",
+    "Document Generation Suite",
+    "Idea Validation Engine",
+    "Persistent Startup Memory",
+    // "Pitch Deck Builder",
+    // "Outreach Automation",
+]
+
+export const perks = [
+    "AI Co-Founder available 24/7",
+    "PRD & Pitch Deck generation",
+    "Persistent startup memory",
 ]

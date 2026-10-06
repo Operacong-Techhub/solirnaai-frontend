@@ -48,6 +48,18 @@ export default function Header() {
                             </li>
                         ))}
                     </ul>
+                    <div className="flex flex-col gap-4 mt-4">
+                        <Link
+                            href="/signin"
+                            className="bg-black/10 border border-[var(--line)] px-5 py-2 font-semibold rounded-sm text-[14px] w-full text-center">
+                            Sign in
+                        </Link>
+                        <Link
+                            href="/signup"
+                            className="text-center bg-gradient-to-r from-[var(--brand)]  via-[var(--brand-2)] to-[var(--brand-2)] px-5 py-2 font-semibold rounded-sm text-black text-[14px]">
+                            Start free
+                        </Link>
+                    </div>
                 </div>
 
                 {/* Desktop Menu */}
@@ -76,53 +88,4 @@ export default function Header() {
             </div>
         </div>
     );
-}
-
-{
-    /* <div className="flex h-[72px] items-center justify-between"> */
-}
-{
-    /* <Brand /> */
-}
-{
-    /*  */
-}
-// Medium and Desktop Menu
-{
-    /* <div className="hidden md:flex justify-between"> */
-}
-{
-    /* <nav className="items-center gap-[30px]"> */
-}
-{
-    /* {navLinks.map((l) => ( */
-}
-// <a key={l.href} href={l.href} className="text-[14.5px] font-medium text-[var(--muted)] hover:text-white">
-{
-    /* {l.label} */
-}
-{
-    /* </a> */
-}
-// ))}
-{
-    /* </nav> */
-}
-{
-    /* <div className="flex items-center gap-3"> */
-}
-{
-    /* <Link href="/auth/signin" className="bg-zinc-400/10 px-4 py-2 rounded-lg font-bold border border-[var(--line)] text-sm">Sign in</Link> */
-}
-{
-    /* <Link href="/auth/signup" className="bg-gradient-to-r from-[var(--brand)] via-[var(--brand-2)] to-[var(--brand-2)] font-bold px-4 py-2 rounded-lg text-black text-sm">Start free</Link> */
-}
-{
-    /* </div> */
-}
-{
-    /* </div> */
-}
-{
-    /* </div> */
 }
